@@ -1,9 +1,9 @@
 abstract class Content
 {
-    String title;
-    int id;
-    int duration;
-    double rating;
+    private String title;
+    private int id;
+    private int duration;
+    private double rating;
     public Content(String title, int id, int duration, double rating)
     {
         this.title = title;
